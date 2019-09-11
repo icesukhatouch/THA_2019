@@ -39,6 +39,10 @@
         text-decoration: none;
         color: white;
     }
+    .nav-links a:hover,
+    .nav-links a:active {
+        color: #FDD738;
+    }
     .vertical-line {
         border-right: 1px solid white;
         width: 50%;

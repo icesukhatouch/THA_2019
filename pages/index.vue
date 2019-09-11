@@ -2,17 +2,20 @@
   <div class="container">
     <Hero />
     <News />
+    <Agenda />
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero/Hero'
 import News from '~/components/News/News'
+import Agenda from '~/components/Agenda/Agenda'
 
 export default {
   components: {
     Hero,
-    News
+    News,
+    Agenda
   }
 }
 </script>
